@@ -4,16 +4,17 @@
 }
 
 .item__display_box {
-  height: 1000px;
+  height: 1234px;
   border: 1px dashed black;
-  // background-color: purple;
+  border-radius: 6px;
+  background-color: purple;
 }
 
 .item__picture_box {
   height: 800px;
   width: 50%;
   float: left;
-  border: 1px solid purple;
+  // border: 1px solid purple;
   // background-color: purple;
 }
 
@@ -25,20 +26,141 @@
 }
 
 .item__item_description {
-  height: 250px;
+  height: 111px;
   width: 90%;
-  margin: 30px 5% 5px 5%;
+  margin: 30px 5% 60px 5%;
   border: 1px solid black;
+  background-color: white;
 }
 
 
 
-.item__description_box {
+.item__details_box {
   height: 800px;
   float: right;
   width: 45%;
-  border: 1px solid red;
-  // background-color: red;
+  // border: 1px dotted red;
+}
+
+.item__details_section {
+  width: 95%;
+}
+
+.item__purchase_details_box {
+  height: 400px;
+  margin: 20px 5% 20px 0;
+  border: 1px solid blue;
+  background-color: white;
+}
+
+.item__item_name_title {
+  float: left;
+  margin: 20px 0 0 20px;
+}
+
+.item__price {
+  right: 0px;
+  position: absolute;
+}
+
+.item__sale_price {
+  margin: 16px 50px 0 0;
+  font-size: 21px;
+  color: red;
+}
+
+.item__listing_price {
+  margin: 44px 50px 0 0;
+  font-size: 11px;
+}
+
+
+.item__purchasing_item_details {
+  margin: 56px 0 0 20px;
+}
+
+.item__category_title {
+  float: left;
+  font-size: 13px;
+}
+
+.main_category_title {
+  font-size: 14px;
+}
+
+
+.item__item_description_bio {
+  float: left;
+  height: 175px;
+  width: 80%;
+  font-size: 11px;
+  margin: 10px 0 0 0;
+}
+
+
+
+.item_purchasing_selections {
+  height: 23px;
+  min-width: 100px;
+  max-width: 150px;
+  font-size: 12px;
+  padding: 4px;
+  background-color: #F2F2F2;
+}
+
+#item__variation_selection {
+  float: left;
+  margin: 25px 5px 0 5px;
+}
+
+#item__size_selection {
+  float: left;
+  margin: 25px 5px 0 5px;
+}
+
+#item__quantity_selection {
+  float: left;
+  min-width: 33px !important;
+  max-width: 33px !important;
+  margin: 25px 0 0 5px;
+}
+
+.item__add_to_cart_btn {
+  width: 90%;
+  height: 38px;
+  font-size: 13px;
+  background-color: #FC1501;
+  margin: 25px 5% 0 5%;
+  border-radius: 6px;
+}
+
+
+
+
+
+
+.item__rundown_details_box {
+  height: 600px;
+  margin: 0 5% 0 0;
+  border: 1px solid green;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.comments_container {
+  height: 350px;
+  width: 90%;
+  margin: 30px 5% 5px 5%;
+  border: 1px solid yellow;
+  background-color: white;
 }
 
 

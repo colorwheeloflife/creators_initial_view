@@ -6,22 +6,54 @@
       <div class='item__picture_box'>
         <%= image_tag "lundesigns_holy_spirit.jpg", :class => 'item__main_picture' %>
         <div class='item__item_description'></div>
+        <div class='comments_container'></div>
       </div>
 
-      <div class='item__description_box'></div>
+      <div class='item__details_box'>
+        <div class='item__details_section item__purchase_details_box'>
+          <h3 class='item__item_name_title'>Holy Spirit</h3>
+          <span class='item__price item__sale_price'>$11.11+ CA</span>
+          <span class='item__price item__listing_price'><strong>was $27.56+</strong></span>
+
+          <div class='item__purchasing_item_details'>
+            <p class='item__category_title item__main_category_title'>
+              Visual Art | Dynamic Visionary, Color Puddle
+            </p>
+            <p class='item__item_description_bio'>
+              This is an original piece of artwork digitally created by Louisa Firethorne. The name of this piece is 'KRIYADONNA', Queen of Heaven. The art print colors are absolutely stunning, bright and beautiful. Available in either 11" x 17" Art Prints or 24" x 36" standard poster size. The sale of this poster will benefit the Oakland fire victims.
+              <br>
+              THANK YOU FOR SUPPORTING A NORTHWEST ARTIST!
+              More at www.lungraphics.com
+            </p>
+            <select name="select" class='item__dropdown item_purchasing_selections' id='item__variation_selection'>
+              <option value="value1">Select a variation</option>
+              <option value="value2"> Variation 1</option>
+              <option value="value3">Variation 2</option>
+              <option value="value3">Variation 3</option>
+            </select>
+            <select name="select" class='item__dropdown item_purchasing_selections' id='item__size_selection'>
+              <option value="value1">Select a size</option>
+              <option value="value2"> Art Print: 11 x 17 inches[CA $11.11]</option>
+              <option value="value3">Poster Size: 24 x 36 inches [CA $55.55]</option>
+              <option value="value3">Variation 3</option>
+            </select>
+            <select name="select" class='item__dropdown item_purchasing_selections' id='item__quantity_selection'>
+              <option value="value1">#</option>
+              <option value="value2">1</option>
+              <option value="value3">2</option>
+              <option value="value3">3</option>
+              <option value="value3">4</option>
+              <option value="value3">5</option>
+            </select>
+          </div>
+
+          <button class='btn item__add_to_cart_btn' id='add_to_cart_btn'>Add To Cart!</button>
+
+        </div>
+        <div class='item__details_section item__rundown_details_box'></div>
+      </div>
+
     </div>
     <div class='col-md-1'></div>
-
-
-    <div class='col-md-6 item__display_box'>
-      <%= image_tag "lundesigns_holy_spirit.jpg", :class => 'item__main_picture' %>
-      <div class='item__item_description'></div>
-    </div>
-    <div class='col-md-6 item__description_box'>
-      <div class='item__description_box_item item__price_breakdown'></div>
-      <div class='item__description_box_item item__box2'></div>
-    </div>
-
-
   </div>
 </div>
