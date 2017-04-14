@@ -1,3 +1,60 @@
-// Place all the styles related to the items controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.item_profile {
+  margin-bottom: 40px;
+  border: 1px dotted black;
+}
+
+.item__display_box {
+  height: 1000px;
+  border: 1px dashed black;
+  // background-color: purple;
+}
+
+.item__picture_box {
+  height: 800px;
+  width: 50%;
+  float: left;
+  border: 1px solid purple;
+  // background-color: purple;
+}
+
+.item__main_picture {
+  object-fit: cover;
+  height: 600px;
+  width: 90%;
+  margin: 30px 5% 5px 5%;
+}
+
+.item__item_description {
+  height: 250px;
+  width: 90%;
+  margin: 30px 5% 5px 5%;
+  border: 1px solid black;
+}
+
+
+
+.item__description_box {
+  height: 800px;
+  float: right;
+  width: 45%;
+  border: 1px solid red;
+  // background-color: red;
+}
+
+
+//
+// .item__description_box_item {
+//   float: right;
+//   width: 90%;
+//   background-color: white;
+//   border: 1px solid black;
+// }
+//
+// .item__price_breakdown {
+//   height: 300px;
+//   margin: 30px 0 60px 0;
+// }
+//
+// .item__box2 {
+//   height: 400px;
+// }
