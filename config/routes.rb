@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'category/index'
+
   get 'festivals/index'
 
   get 'festivals/show'

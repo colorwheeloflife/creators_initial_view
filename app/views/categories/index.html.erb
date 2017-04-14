@@ -1,2 +1,51 @@
-<h1>Categories#index</h1>
-<p>Find me in app/views/categories/index.html.erb</p>
+<div class='page_title'>Categories</div>
+
+<!-- <div id='category_entry_belt'>
+</div> -->
+
+<div id='container'>
+  <div class='row'>
+    <div class='col-md-1'></div>
+    <div class='col-md-2'>
+      <div class='category_entry'>
+        <%= link_to category_index_path do %>
+          <%= image_tag "spiritnectar_1.jpg", :class => 'categories_entry_picture' %>
+          <p class='entry_title_name'>Crafts</p>
+        <% end %>
+      </div>
+    </div>
+    <div class='col-md-2'>
+      <div class='category_entry'>
+        <%= link_to category_index_path do %>
+          <%= image_tag "sewmuchlove_sexy_girl_1.jpg", :class => 'categories_entry_picture' %>
+          <p class='entry_title_name'>Clothing</p>
+        <% end %>
+      </div>
+    </div>
+    <div class='col-md-2'>
+      <div class='category_entry'>
+        <%= link_to category_index_path do %>
+          <%= image_tag "mugwort_1.jpg", :class => 'categories_entry_picture' %>
+          <p class='entry_title_name'>Visual Art</p>
+        <% end %>
+      </div>
+    </div>
+    <div class='col-md-2'>
+      <div class='category_entry'>
+        <%= link_to category_index_path do %>
+          <%= image_tag "secret_wood_1.jpg", :class => 'categories_entry_picture' %>
+          <p class='entry_title_name'>Jewelry</p>
+        <% end %>
+      </div>
+    </div>
+    <div class='col-md-2'>
+      <div class='category_entry'>
+        <%= link_to category_index_path do %>
+          <%= image_tag "cozo_1.jpg", :class => 'categories_entry_picture' %>
+          <p class='entry_title_name'>Home Items</p>
+        <% end %>
+      </div>
+    </div>
+    <div class='col-md-1'></div>
+  </div>
+</div>

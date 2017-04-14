@@ -42,6 +42,10 @@ $navbar_height: 60px;
 
 
 // idea: have 'right' attribute set to profile_badge width + margin to keep consistency
+.navbar_btns {
+  cursor: pointer;
+}
+
 #chat {
   position: absolute;
   width: 35px;
