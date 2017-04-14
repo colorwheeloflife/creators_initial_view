@@ -3,6 +3,7 @@ $navbar_height: 60px;
 .navbar {
   height: $navbar_height;
   background-color: #FF8247;
+  margin-bottom: 50px;
 }
 
 
@@ -41,23 +42,17 @@ $navbar_height: 60px;
 
 
 // idea: have 'right' attribute set to profile_badge width + margin to keep consistency
-#notifications {
+#chat {
   position: absolute;
   width: 35px;
   height: 35px;
   margin: 12.5px 0 0 0;
-  right: 125px;
+  right: 215px;
   // background-color: #F2F2F2;
   border-radius: 4px;
 }
 
-#notification_icon {
-  width: 30px;
-  height: 30px;
-  margin: 2.5px;
-}
-
-#chat {
+#notifications {
   position: absolute;
   width: 35px;
   height: 35px;
@@ -67,11 +62,20 @@ $navbar_height: 60px;
   border-radius: 4px;
 }
 
-#chat_icon {
+#favorites {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  margin: 12.5px 0 0 0;
+  right: 125px;
+  // background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+.navbar_icon {
   width: 30px;
   height: 30px;
   margin: 2.5px;
-  position: absolute;
 }
 
 #profile_badge {
