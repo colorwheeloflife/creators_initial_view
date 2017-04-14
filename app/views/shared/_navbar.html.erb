@@ -1,6 +1,50 @@
 <nav class="navbar navbar-default" role="navigation">
-  <div id='profile_badge'>
-    <p id='profile_name'>Taylor</p>
-    <%= image_tag "facebook_profile.jpg", :id => 'profile_pic' %>
+  <div class='container'>
+    <div class='row'>
+      <!-- whole night objective: get all the fitting + scaling right -->
+
+        <div class="dropdown" id='explore_dropdown'>
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Explore
+          </button>
+          <!-- DOES NOT WORK AFTER LINKING TO PAGE, MUST REFRESH PAGE THEN IT WORKS AGAIN -->
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ul id='explore_ul'>
+              <li><%= link_to "Artists", artists_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Categories", categories_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Collectives", collectives_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Festivals", festivals_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Regions", regions_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Vibes", vibes_index_path, :class => 'dropdown-item' %></li>
+              <li>—</li>
+              <li><%= link_to "Map Quest", map_quest_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Super Search", super_search_index_path, :class => 'dropdown-item' %></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="input-group" id='navbar_searchbar'>
+          <input type="text" class="form-control searchbar_element" placeholder="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary searchbar_element" type="button">Go!</button>
+          </span>
+        </div>
+
+
+        <div id='notifications'><%= image_tag "call_bell.svg", :id => 'notification_icon' %></div>
+        <div id='chat'><%= image_tag "chat.svg", :id => 'chat_icon' %></div>
+        <div id='profile_badge'>
+          <p id='profile_name'>Taylor</p>
+          <%= image_tag "facebook_profile.jpg", :id => 'profile_pic' %>
+        </div>
+
+    </div>
   </div>
 </nav>
+
+<script>
+  var window_width = $(window).width();
+  var side_margin = (window_width - 555) / 2;
+  $('#navbar_searchbar').css("left", side_margin );
+</script>

@@ -1,6 +1,77 @@
+$navbar_height: 60px;
+
 .navbar {
-  height: 60px;
+  height: $navbar_height;
   background-color: #FF8247;
+}
+
+
+#explore_dropdown {
+  position: absolute;
+  margin: ($navbar_height * 0.15) 0 0 0;
+  left: 20px;
+}
+
+#dropdownMenuButton {
+  min-width: 80px;
+  height: $navbar_height - ($navbar_height * 0.3);
+  background-color: #F2F2F2;
+}
+
+#explore_ul li {
+  list-style-type: none;
+}
+
+#explore_ul li a {
+  color: black;
+}
+
+
+// must: have it's width scalable to fit a shrinking screen
+#navbar_searchbar {
+  position: absolute;
+  width: 555px;
+  margin: ($navbar_height * 0.15) 0 0 0;
+}
+
+.searchbar_element {
+  height: $navbar_height - ($navbar_height * 0.3);
+}
+
+
+
+// idea: have 'right' attribute set to profile_badge width + margin to keep consistency
+#notifications {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  margin: 12.5px 0 0 0;
+  right: 125px;
+  // background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+#notification_icon {
+  width: 30px;
+  height: 30px;
+  margin: 2.5px;
+}
+
+#chat {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  margin: 12.5px 0 0 0;
+  right: 170px;
+  // background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+#chat_icon {
+  width: 30px;
+  height: 30px;
+  margin: 2.5px;
+  position: absolute;
 }
 
 #profile_badge {
