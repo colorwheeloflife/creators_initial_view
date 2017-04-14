@@ -1,0 +1,2 @@
+module MapQuestHelper
+end

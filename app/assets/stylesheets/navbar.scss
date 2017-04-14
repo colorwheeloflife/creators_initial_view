@@ -1,0 +1,26 @@
+.navbar {
+  height: 60px;
+  background-color: #FF8247;
+}
+
+#profile_badge {
+  width: 100px;
+  height: 40px;
+  margin: 10px 0 0 0;
+  right: 10px;
+  position: absolute;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+#profile_name {
+  float: left;
+  margin: 10px 0 0 8px;
+}
+
+#profile_pic {
+  float: right;
+  height: 30px;
+  width: 30px;
+  margin: 5px 3px 5px 3px;
+}
