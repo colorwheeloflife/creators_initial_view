@@ -12,7 +12,59 @@
           <div class='symbol_container heart_btn_container'><%= image_tag "heart.svg", :class => 'collection_btn heart_btn' %></div>
           <div class='symbol_container star_btn_container'><%= image_tag "star.svg", :class => 'collection_btn star_btn' %></div>
         </div>
-        <div class='comments_container'></div>
+        <div class='comments_container'>
+          <div class='comments_thread'>
+
+            <div class="input-group new_comment_field">
+              <input type="text" class="form-control new_comment_input" placeholder="Make a comment...">
+              <span class="input-group-btn">
+                <button class='btn btn-warning new_comment_add_tags_btn' type="button"><%= image_tag "tag_white.svg", :class => 'tag_it_btn' %></button>
+                <button class="btn btn-secondary new_comment_submit" type="button">Comment!</button>
+              </span>
+            </div>
+
+            <div class='made_comments_list'>
+              <div class='item_comment'>
+                <div class='comment_top_portion'>
+                  <%= image_tag "facebook_profile.jpg", :class => 'comment_profile_pic' %>
+                  <p class='comment_profile_name'>Taylor</p>
+                  <p class='comment_date_time'>at 4:44pm on Dec 28, 2018</p>
+                </div>
+                <div class='comment_text'>So amazing :)</div>
+                <p class='comment_tags'>#Vibrant #Colorful #Stimulating</p>
+              </div>
+              <div class='item_comment'>
+                <div class='comment_top_portion'>
+                  <%= image_tag "facebook_profile.jpg", :class => 'comment_profile_pic' %>
+                  <p class='comment_profile_name'>Taylor</p>
+                  <p class='comment_date_time'>at 4:44pm on Dec 28, 2018</p>
+                </div>
+                <div class='comment_text'>So amazing :)</div>
+                <p class='comment_tags'>#Vibrant #Colorful #Stimulating</p>
+              </div>
+              <div class='item_comment'>
+                <div class='comment_top_portion'>
+                  <%= image_tag "facebook_profile.jpg", :class => 'comment_profile_pic' %>
+                  <p class='comment_profile_name'>Taylor</p>
+                  <p class='comment_date_time'>at 4:44pm on Dec 28, 2018</p>
+                </div>
+                <div class='comment_text'>So amazing :)</div>
+                <p class='comment_tags'>#Vibrant #Colorful #Stimulating</p>
+              </div>
+              <div class='item_comment'>
+                <div class='comment_top_portion'>
+                  <%= image_tag "facebook_profile.jpg", :class => 'comment_profile_pic' %>
+                  <p class='comment_profile_name'>Taylor</p>
+                  <p class='comment_date_time'>at 4:44pm on Dec 28, 2018</p>
+                </div>
+                <div class='comment_text'>So amazing :)</div>
+                <p class='comment_tags'>#Vibrant #Colorful #Stimulating</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
       </div>
 
       <div class='item__details_box'>
@@ -41,7 +93,6 @@
               <option value="value1">Select a size</option>
               <option value="value2"> Art Print: 11 x 17 inches[CA $11.11]</option>
               <option value="value3">Poster Size: 24 x 36 inches [CA $55.55]</option>
-              <option value="value3">Variation 3</option>
             </select>
             <select name="select" class='item__dropdown item_purchasing_selections' id='item__quantity_selection'>
               <option value="value1">#</option>
