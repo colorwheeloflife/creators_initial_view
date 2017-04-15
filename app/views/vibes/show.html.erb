@@ -1,2 +1,200 @@
-<h1>Vibes#show</h1>
-<p>Find me in app/views/vibes/show.html.erb</p>
+<div class='page_title'>Earthy Vibe</div>
+
+<div class='container feature_theatre_window_container'>
+  <div class='row'>
+    <div class='col-lg-12 feature_theatre_window'>
+      <div class='feature_theatre_window_secondary_container feature_theatre_window_secondary_container_left'>
+        <div class='feature_theatre_window_secondary'><%= image_tag "simons_enchanted_forest.jpg", :class => 'theatre_window_secondary_picture' %></div>
+        <div class='feature_theatre_window_secondary'><%= image_tag "simons_enchanted_forest.jpg", :class => 'theatre_window_secondary_picture' %></div>
+        <div class='feature_theatre_window_secondary'><%= image_tag "simons_enchanted_forest.jpg", :class => 'theatre_window_secondary_picture' %></div>
+      </div>
+      <div class='feature_theatre_window_main'>
+        <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'theatre_window_main_picture' %>
+      </div>
+      <div class='feature_theatre_window_secondary_container feature_theatre_window_secondary_container_right'>
+        <div class='feature_theatre_window_secondary'><%= image_tag "simons_enchanted_forest.jpg", :class => 'theatre_window_secondary_picture' %></div>
+        <div class='feature_theatre_window_secondary'><%= image_tag "simons_enchanted_forest.jpg", :class => 'theatre_window_secondary_picture' %></div>
+        <div class='feature_theatre_window_secondary'><%= image_tag "simons_enchanted_forest.jpg", :class => 'theatre_window_secondary_picture' %></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='container' id='vibe__category_sliders_container'>
+  <div class='row'>
+    <div class='col-md-12' id='vibe__category_sliders'>
+      <div class='slider_container_div'>
+        <h4 class='slider_header'>Visual Art</h4>
+        <div class='window_slider'></div>
+      </div>
+      <div class='slider_container_div'>
+        <h4 class='slider_header'>Clothing</h4>
+        <div class='window_slider'></div>
+      </div>
+      <div class='slider_container_div'>
+        <h4 class='slider_header'>Jewellry</h4>
+        <div class='window_slider'></div>
+      </div>
+      <div class='slider_container_div'>
+        <h4 class='slider_header'>Crafts</h4>
+        <div class='window_slider'></div>
+      </div>
+      <div class='slider_container_div'>
+        <h4 class='slider_header'>Home Items</h4>
+        <div class='window_slider'></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='container'>
+  <div class='row'>
+    <div class='divider_bar'></div>
+  </div>
+</div>
+
+<div class='container' id='vibe__top_ranking_sliders_container'>
+  <div class='row'>
+    <div class='col-md-12' id='vibe__top_ranking_sliders'>
+      <div class='slider_container_div'>
+        <h4 class='slider_header'>Highest Rated</h4>
+        <div class='window_slider'></div>
+      </div>
+      <div class='slider_container_div'>
+        <h4 class='slider_header'>Whats Hot</h4>
+        <div class='window_slider'></div>
+      </div>
+      <div class='slider_container_div'>
+        <h4 class='slider_header'>Freshly Added</h4>
+        <div class='window_slider'></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class='container browse_bar'>
+  <div class='row'>
+    <div class='col-md-12'>
+      <div id='browse_bar_header_bar'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-12 browse_bar_column_container'>
+      <div class='browse_bar_column' id='browse_bar_column_1'>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+      </div>
+      <div class='browse_bar_column' id='browse_bar_column_2'>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+      </div>
+      <div class='browse_bar_column' id='browse_bar_column_3'>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "dream-glade-metta-simon-haiduk.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

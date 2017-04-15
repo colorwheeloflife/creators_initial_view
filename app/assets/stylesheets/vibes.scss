@@ -1,3 +1,65 @@
-// Place all the styles related to the vibes controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.feature_theatre_window_container {
+  height: 600px;
+  margin-bottom: 100px;
+}
+
+.feature_theatre_window {
+  height: 600px;
+  border: 1px solid orange;
+}
+
+.feature_theatre_window_main {
+  position: absolute;
+  height: 600px;
+  width: 70%;
+  margin: 0 160px;
+  // background-color: red;
+  border: 1px solid black;
+}
+
+.theatre_window_main_picture {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.feature_theatre_window_secondary_container {
+  position: absolute;
+  height: 600px;
+}
+
+.feature_theatre_window_secondary_container_left {
+  left: 0;
+}
+
+.feature_theatre_window_secondary_container_right {
+  right: 0;
+}
+
+.feature_theatre_window_secondary {
+  height: 200px;
+  width: 175px;
+  border: 1px solid black;
+  // background-color: blue;
+}
+
+.theatre_window_secondary_picture {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#vibe__category_sliders_container {
+  margin-bottom: 75px;
+}
+
+.divider_bar {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 75px;
+  background-color: black;
+}
+
+#vibe__top_ranking_sliders_container {
+  margin-bottom: 75px;
+}
