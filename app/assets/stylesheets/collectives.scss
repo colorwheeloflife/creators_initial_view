@@ -1,3 +1,37 @@
-// Place all the styles related to the collectives controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.collective_window_container {
+  height: 400px;
+  width: 90%;
+  margin: 15px auto;
+  padding: 4%;
+  background-color: #8C8C8C;
+  border-radius: 5px;
+}
+
+.collective_window {
+  height: 375px;
+  width: 100%;
+}
+
+.collective_window_picture {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.collective_snapshot {
+  height: 40%;
+  background-color: #E0E0E0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 4px 0 0 8px;
+}
+
+.collective_snapshot_descriptor {}
+
+.collective_snapshot_page_btn {
+  margin: 13px 0 0 60px;
+  border-radius: 3px;
+  background-color: #1874CD;
+}
