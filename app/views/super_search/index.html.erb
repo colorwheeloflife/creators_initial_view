@@ -1,2 +1,193 @@
-<h1>SuperSearch#index</h1>
-<p>Find me in app/views/super_search/index.html.erb</p>
+<div class='container' id='super_super_panel_container'>
+  <div class='row'>
+    <div class='col-md-1'></div>
+
+
+    <div class='col-md-10' id='super_super_panel'>
+
+      <div class="input-group" id='super_searchbar'>
+        <input type="text" class="form-control searchbar_element" placeholder="Search for...">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary searchbar_element" type="button">Go!</button>
+        </span>
+      </div>
+
+      <select name="select" class='super_search_selection_dropdown' id='super_search_category_selection'>
+        <option value="value1">Category</option>
+        <option value="value2">Visual Art</option>
+        <option value="value3">Clothing</option>
+        <option value="value3">Jewelery</option>
+        <option value="value3">Crafts</option>
+        <option value="value3">Home Items</option>
+      </select>
+
+      <select name="select" class='super_search_selection_dropdown' id='super_search_subcategory_selection'>
+        <option value="value1">Sub-Category</option>
+        <option value="value2">Acrillic</option>
+        <option value="value3">Digital Art</option>
+        <option value="value3">Spraw-Paint</option>
+      </select>
+
+      <select name="select" class='super_search_selection_dropdown' id='super_search_location_selection'>
+        <option value="value1">Location</option>
+        <option value="value2">BC</option>
+        <option value="value3">Alberta</option>
+        <option value="value3">Washington</option>
+        <option value="value3">Oregon</option>
+        <option value="value3">California</option>
+        <option value="value3">Nevada</option>
+        <option value="value3">Utah</option>
+        <option value="value3">Arizona</option>
+        <option value="value3">Colorado</option>
+        <option value="value3">New Mexico</option>
+      </select>
+
+      <select name="select" class='super_search_selection_dropdown' id='super_search_color_selection'>
+        <option value="value1">Color</option>
+        <option value="value1">Red</option>
+        <option value="value2">Orange</option>
+        <option value="value3">Yellow</option>
+        <option value="value3">Green</option>
+        <option value="value3">Blue</option>
+        <option value="value3">Purple</option>
+      </select>
+
+      <select name="select" class='super_search_selection_dropdown' id='super_search_vibe_selection'>
+        <option value="value1">Vibe</option>
+        <option value="value2">Dynamic Visionary</option>
+        <option value="value3">Natural Connection</option>
+        <option value="value3">The Next Level</option>
+      </select>
+
+    </div>
+
+
+    <div class='col-md-1'></div>
+  </div>
+</div>
+
+<div class='container browse_bar'>
+  <div class='row'>
+    <div class='col-md-12'>
+      <div id='browse_bar_header_bar'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-12 browse_bar_column_container'>
+      <div class='browse_bar_column' id='browse_bar_column_1'>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+      </div>
+      <div class='browse_bar_column' id='browse_bar_column_2'>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+      </div>
+      <div class='browse_bar_column' id='browse_bar_column_3'>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+        <div class='browse_bar_item'>
+          <%= link_to items_show_path do %>
+            <%= image_tag "prophecy-of-time-justin-totemical.jpg", :class => 'browse_bar_picture' %>
+          <% end %>
+          <p class='browse_bar_item_name'>Prophecy Of Time by Justin Totemical</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

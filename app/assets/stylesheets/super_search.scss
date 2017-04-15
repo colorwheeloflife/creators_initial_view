@@ -1,3 +1,38 @@
-// Place all the styles related to the super_search controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#super_super_panel_container {
+  height: 300px;
+}
+
+#super_super_panel {
+  height: 300px;
+  border: 1px solid black;
+}
+
+#super_searchbar {
+  width: 800px;
+  margin: 80px 0 0 65px;
+}
+
+.super_search_selection_dropdown {
+  float: left;
+  width: 142px;
+}
+
+#super_search_category_selection {
+  margin: 40px 10px 10px 70px;
+}
+
+#super_search_subcategory_selection {
+  margin: 40px 10px 10px 10px;
+}
+
+#super_search_location_selection {
+  margin: 40px 10px 10px 10px;
+}
+
+#super_search_color_selection {
+  margin: 40px 10px 10px 10px;
+}
+
+#super_search_vibe_selection {
+  margin: 40px 10px 10px 10px;
+}
