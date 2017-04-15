@@ -14,8 +14,6 @@
   height: 800px;
   width: 50%;
   float: left;
-  // border: 1px solid purple;
-  // background-color: purple;
 }
 
 .item__main_picture {
@@ -25,12 +23,64 @@
   margin: 30px 5% 5px 5%;
 }
 
-.item__item_description {
+.item__item_vision_statement {
   height: 111px;
   width: 90%;
-  margin: 30px 5% 60px 5%;
+  margin: 30px 5% 20px 5%;
   border: 1px solid black;
   background-color: white;
+  text-align: center;
+  padding: 46px;
+}
+
+.like-heart-star_btn_container {
+  height: 40px;
+  width: 90%;
+  margin: 20px 5% 30px 5%;
+  padding: 0 60px;
+  // border: 1px solid white;
+}
+
+.symbol_container {
+  float: left;
+  height: 45px;
+  width: 45px;
+  margin: 0 28px;
+  padding: 4px;
+  border-radius: 20px;
+  border: 3px solid black;
+  background-color: #FFFFE0;
+}
+
+.like_btn_container {
+
+}
+
+.heart_btn_container {
+
+}
+
+.star_btn_container {
+
+}
+
+.collection_btn {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.like_btn {
+
+}
+
+.heart_btn {
+  margin-top: 2px;
+}
+
+.star_btn {
+  height: 30px;
+  width: 30px;
 }
 
 
@@ -39,7 +89,6 @@
   height: 800px;
   float: right;
   width: 45%;
-  // border: 1px dotted red;
 }
 
 .item__details_section {
@@ -74,7 +123,6 @@
   font-size: 11px;
 }
 
-
 .item__purchasing_item_details {
   margin: 56px 0 0 20px;
 }
@@ -88,7 +136,6 @@
   font-size: 14px;
 }
 
-
 .item__item_description_bio {
   float: left;
   height: 175px;
@@ -96,8 +143,6 @@
   font-size: 11px;
   margin: 10px 0 0 0;
 }
-
-
 
 .item_purchasing_selections {
   height: 23px;
@@ -136,14 +181,37 @@
 
 
 
-
-
-
 .item__rundown_details_box {
   height: 600px;
   margin: 0 5% 0 0;
   border: 1px solid green;
   background-color: white;
+}
+
+.item__rundown_details_box_top_tabs_container {
+  height: 33px;
+  width: 100%;
+}
+
+.item__rundown_details_box_top_tabs {
+  height: 30px;
+  width: 33.3333333%;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 6px;
+}
+
+.tab_3_left {
+  float: left;
+}
+
+.tab_3_middle {
+  float: left;
+}
+
+.tab_3_right {
+  float: right;
 }
 
 

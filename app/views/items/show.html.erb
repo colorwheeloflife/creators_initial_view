@@ -5,7 +5,13 @@
 
       <div class='item__picture_box'>
         <%= image_tag "lundesigns_holy_spirit.jpg", :class => 'item__main_picture' %>
-        <div class='item__item_description'></div>
+        <div class='item__item_vision_statement'>Vision Statement</div>
+        <div class='like-heart-star_btn_container'>
+          <!-- could try putting them in a bootstrap container 8 and centering -->
+          <div class='symbol_container like_btn_container'><%= image_tag "thumbs_up.svg", :class => 'collection_btn like_btn' %></div>
+          <div class='symbol_container heart_btn_container'><%= image_tag "heart.svg", :class => 'collection_btn heart_btn' %></div>
+          <div class='symbol_container star_btn_container'><%= image_tag "star.svg", :class => 'collection_btn star_btn' %></div>
+        </div>
         <div class='comments_container'></div>
       </div>
 
@@ -46,11 +52,22 @@
               <option value="value3">5</option>
             </select>
           </div>
-
           <button class='btn item__add_to_cart_btn' id='add_to_cart_btn'>Add To Cart!</button>
-
         </div>
-        <div class='item__details_section item__rundown_details_box'></div>
+
+
+        <div class='item__details_section item__rundown_details_box'>
+          <!-- <div class='item__rundown_details_box_top_tabs_container'>
+            <div class='item__rundown_details_box_top_tabs tab_3_left'>Shipping</div>
+            <div class='item__rundown_details_box_top_tabs tab_3_middle'>How it was made</div>
+            <div class='item__rundown_details_box_top_tabs tab_3_right'>Vibe/Tagging</div>
+          </div> -->
+        </div>
+
+
+
+
+
       </div>
 
     </div>
