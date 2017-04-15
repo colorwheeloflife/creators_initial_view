@@ -1,3 +1,46 @@
-// Place all the styles related to the festivals controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#festivals__map {
+  width: 100%;
+  height: 600px;
+  margin-bottom: 80px;
+}
+
+
+.festival_index_container {
+  margin-bottom: 100px;
+}
+
+#festival_index_header_title {
+  margin-bottom: 30px;
+}
+
+#are_you_a_festival {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+}
+
+.festival_index_entry {
+
+}
+
+.festival_index_entry_name {
+
+}
+
+.festival_index_entry_location {
+
+}
+
+.festival_index_entry_date {
+
+}
+
+.festival_index_entry_link_icons_container {
+
+}
+
+.icon_link {
+  height: 20px;
+  width: 20px;
+}
