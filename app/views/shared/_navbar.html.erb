@@ -13,7 +13,7 @@
               <li><%= link_to "Artists √", artists_index_path, :class => 'dropdown-item' %></li>
               <li><%= link_to "Categories √", categories_index_path, :class => 'dropdown-item' %></li>
               <li><%= link_to "Collectives √", collectives_index_path, :class => 'dropdown-item' %></li>
-              <li><%= link_to "FESTIVALS", festivals_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Festivals √", festivals_index_path, :class => 'dropdown-item' %></li>
               <li><%= link_to "FAVORITES^", favs_index_path, :class => 'dropdown-item' %></li>
               <li><%= link_to "Regions √", regions_index_path, :class => 'dropdown-item' %></li>
               <li><%= link_to "Vibes √", vibes_index_path, :class => 'dropdown-item' %></li>
@@ -42,9 +42,13 @@
           </span>
         </div>
 
-        <div class='navbar_btns' id='chat'><%= image_tag "chat.svg", :id => 'chat_icon', :class => 'navbar_icon' %></div>
+
+
+
+
+        <div class='navbar_btns' id='chat'><%= link_to messenger_index_path do %><%= image_tag "chat.svg", :id => 'chat_icon', :class => 'navbar_icon' %><% end %></div>
         <div class='navbar_btns' id='notifications'><%= image_tag "call_bell.svg", :id => 'notification_icon', :class => 'navbar_icon' %></div>
-        <div class='navbar_btns' id='favorites'><%= image_tag "heart_black_around.svg", :id => 'heart_icon', :class => 'navbar_icon' %></div>
+        <div class='navbar_btns' id='favorites'><%= link_to favorites_index_path do %><%= image_tag "heart_black_around.svg", :id => 'heart_icon', :class => 'navbar_icon' %><% end %></div>
         <div id='profile_badge'>
           <p id='profile_name'>Taylor</p>
           <%= image_tag "facebook_profile.jpg", :id => 'profile_pic' %>

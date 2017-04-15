@@ -1,3 +1,32 @@
-// Place all the styles related to the messenger controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#chat_container {
+  margin-top: 60px;
+}
+
+#chat_convo_history_div {
+  height: 700px;
+  border: 1px solid black;
+}
+
+#chat_conversation_div {
+  right: 0;
+  height: 700px;
+  width: 90%;
+  padding:  20px 0 0 0;
+  border: 1px solid black;
+}
+
+#chat_conversation_thread {
+  height: 580px;
+  width: 90%;
+  margin: 0 5%;
+  border: 1px solid black;
+}
+
+#chat_conversation_talker {
+  bottom: 0;
+  height: 80px;
+  width: 90%;
+  margin: 0 5%;
+  padding: 20px;
+  border: 1px solid black;
+}
