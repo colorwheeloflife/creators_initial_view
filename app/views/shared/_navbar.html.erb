@@ -10,15 +10,27 @@
           <!-- DOES NOT WORK AFTER LINKING TO PAGE, MUST REFRESH PAGE THEN IT WORKS AGAIN -->
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <ul id='explore_ul'>
-              <li><%= link_to "Artists", artists_index_path, :class => 'dropdown-item' %></li>
-              <li><%= link_to "Categories", categories_index_path, :class => 'dropdown-item' %></li>
-              <li><%= link_to "Collectives", collectives_index_path, :class => 'dropdown-item' %></li>
-              <li><%= link_to "Festivals", festivals_index_path, :class => 'dropdown-item' %></li>
-              <li><%= link_to "Regions", regions_index_path, :class => 'dropdown-item' %></li>
-              <li><%= link_to "Vibes", vibes_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Artists √", artists_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Categories √", categories_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Collectives √", collectives_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "FESTIVALS", festivals_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "FAVORITES^", favs_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "REGIONS ~", regions_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "VIBES", vibes_index_path, :class => 'dropdown-item' %></li>
               <li>—</li>
-              <li><%= link_to "Map Quest", map_quest_index_path, :class => 'dropdown-item' %></li>
-              <li><%= link_to "Super Search", super_search_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "artist", artists_show_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Category √", categories_show_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "collective", collectives_show_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "festival", festivals_show_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Item √", items_show_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "profile", profiles_show_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "REGION", regions_show_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "VIBE", vibes_show_path, :class => 'dropdown-item' %></li>
+              <li>—</li>
+              <li><%= link_to "home", home_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "map quest", map_quest_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "MESSENGER^", messenger_index_path, :class => 'dropdown-item' %></li>
+              <li><%= link_to "Super Search √", super_search_index_path, :class => 'dropdown-item' %></li>
             </ul>
           </div>
         </div>
