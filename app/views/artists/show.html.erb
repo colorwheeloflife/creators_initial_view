@@ -1,17 +1,18 @@
 <div class='container artst_profile_container'>
+
   <div class='row'>
     <div class='col-lg-12" artist__header_banner'><%= image_tag "sew_much_love_sexy_banner.jpg", :class => 'banner_1_picture' %></div>
   </div>
+
+
   <div class'row'>
     <div class='col-md-9 artist__artist_breakdown' id='artist__artist_breakdown_9'>
-
       <div class='details_card_div' id='details_card_div_9'>
         <%= image_tag "sew_much_love_profile_pic.jpg", :id => 'artist__profile_picture' %>
         <div id='artist__title_and_tagline_div_container'>
           <h3 id='artist__name_title'> Sew Much Love Clothing </h3>
           <p class='artist__tagline'>Clothing Made From the Heart</p>
         </div>
-
         <div id='artist__vibe_badge_div_container'>
           <div class='badge_container'>
             <strong>Sacred Nomad <br> Vibe</strong>
@@ -19,7 +20,6 @@
               <%= image_tag "sacred_nomad_badge.jpg", :class => 'vibe_badge_picture', :id => 'sacred_nomad_badge' %>
             </div>
           </div>
-
           <div class='badge_container'>
             <strong>Sexy <br> Vibe</strong>
             <div class='badge_picture_container'>
@@ -27,19 +27,36 @@
             </div>
           </div>
         </div>
-
         <div id='artist__breakdown_div_container'>
           <p class='artist__breakdown_item' id='artist__category_1_line'>Clothing Designers <strong>|</strong> Organic | Yoga-Wear</p>
           <p class='artist__breakdown_item' id='artist__guys_girls_breakdown_line'>100:0 Girls To Guys Ratio</p>
         </div>
-
         <div id='artist__shop_description'>
           Sew Much Love is a clothing company that believes in fashion and function, with every purchase a dollar will be donated to a non-profit here in Lake Tahoe.
         </div>
-
       </div>
 
+      <div id='artist__bio_container'></div>
+
     </div>
-    <div class='col-md-3 artist__feature_shelf' id='artist__feature_shelf_vertical'></div>
+
+    <div class='col-md-3 artist__feature_shelf' id='artist__feature_shelf_vertical'>
+      <h4 id='featured_items_title'>Featured Items</h4>
+      <div class='feature_item item_div_container'>
+        <%= image_tag "sew_much_love_sexy_girl_2.jpg", :class => 'item_picture' %>
+        <p class='item_descriptor item_name'>Name Name Name</p>
+        <p class='item_descriptor item_price'>CA $111.11</p>
+      </div>
+      <div class='feature_item item_div_container'>
+        <%= image_tag "sew_much_love_sexy_girl_4_jacket.jpg", :class => 'item_picture' %>
+        <p class='item_descriptor item_name'>Name Name Name</p>
+        <p class='item_descriptor item_price'>CA $111.11</p>
+      </div>
+      <div class='feature_item item_div_container'>
+        <%= image_tag "sew_much_love_sexy_girl_5_hoodie.jpg", :class => 'item_picture' %>
+        <p class='item_descriptor item_name'>Name Name Name</p>
+        <p class='item_descriptor item_price'>CA $111.11</p>
+      </div>
+    </div>
   </div>
 </div>
