@@ -1,5 +1,5 @@
-.artst_profile_container {
-  margin-bottom: 1000px;
+.artist_profile_container {
+  margin-bottom: 10px;
 }
 
 .artist__header_banner {
@@ -209,7 +209,6 @@
   background-color: black;
 }
 
-
 #artist__link_container {
   width: 100%;
 }
@@ -218,9 +217,61 @@
   margin: 15px 13%;
 }
 
-
 .icon_link_big {
   height: 40px;
   width: 40px;
   margin: 10px;
+}
+
+
+#artist__vision_statment_container {
+  height: 200px;
+  margin-bottom: 150px;
+  padding: 30px;
+}
+
+#artist__vision_statement_10 {
+  height: 200px;
+  margin-top: 10px;
+  border: 1px solid black;
+  text-align: center;
+  font-style: italic;
+}
+
+#artist__catalogue {
+  height: 1325px;
+  margin-bottom: 150px;
+  border: 1px solid black;
+}
+
+#catalogue_filter_bar {
+  height: 600px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+#catalogue_title {
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.catalogue_option_div {
+  height: 50px;
+}
+
+.catalogue_bar_option {
+  width: 120px;
+  margin: 5px 0 10px 10px;
+}
+
+#catalogue_content_window {
+  height: 1300px;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.catalogue_slider_container {
+  height: 280px;
+  width: 100%;
+  margin: 15px 0 0 18px;
 }
