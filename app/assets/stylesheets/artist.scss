@@ -14,14 +14,14 @@
 }
 
 #artist__artist_breakdown_9 {
-  height: 1000px;
-  border: 1px solid red;
+  height: 1100px;
+  // border: 1px solid red;
 }
 
 #details_card_div_9 {
   width: 100%;
   height: 250px;
-  border: 1px solid violet;
+  // border: 1px solid violet;
 }
 
 #artist__profile_picture {
@@ -89,7 +89,7 @@
 
 #artist__breakdown_div_container {
   float: left;
-  height: 60px;
+  height: 65px;
   width: 400px;
   // border: 1px solid blue;
 }
@@ -98,8 +98,18 @@
   margin: 0 0 6px 10px;
 }
 
+#artist__location_flag {
+  height: 10px;
+  width: 10px;
+}
+
 #artist__category_1_line {
 
+}
+
+#artist__location_line {
+  margin: -6px 0 0 14px;
+  color: #FD9308;
 }
 
 #artist__guys_girls_breakdown_line {
@@ -109,15 +119,25 @@
 #artist__shop_description {
   float: left;
   height: 100px;
-  width: 400px;
-  // margin: 0 0 6px 10px;
-  padding: 0 0 0 10px;
+  width: 450px;
+  padding: 0 0 0 14px;
   // border: 1px solid black;
 }
 
+#artist__about_this_artist_btn {
+  position: absolute;
+  height: 29px;
+  width: 106px;
+  top: 0;
+  left: 0;
+  margin: 215px 0 0 30px;
+  font-size: 11px;
+
+}
+
 #artist__feature_shelf_vertical{
-  height: 1000px;
-  border: 1px solid orange;
+  height: 950px;
+  // border: 1px solid orange;
 }
 
 #featured_items_title {
@@ -137,16 +157,54 @@
   height: 80%;
   width: 100%;
   margin: 0 0 5px 0;
+  background-color: white;
+  z-index: 1;
 }
 
 .item_descriptor {
   margin: 0 0 0 10px;
 }
 
-.item_name {
+.item_name {}
 
+.item_price {}
+
+// #artist__bio_container {
+//   height: 500px;
+//   border: 1px solid blue;
+//   margin-top: 30px;
+// }
+
+#artist__shelf_container {
+  height: 750px;
+  margin-top: 50px;
+  // border: 1px solid black;
 }
 
-.item_price {
+.shelf_slider_container {
+  height: 280px;
+  width: 100%;
+}
 
+.slider_title {
+  margin: 15px 0 0 12px;
+}
+
+.slider_item {
+  float: left;
+  margin: 10px;
+  z-index: 1;
+  background-color: white;
+}
+
+.artist__shelf_9 {
+  height: 350px;
+  // border: 1px solid black;
+}
+
+.shelf_platform {
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
 }

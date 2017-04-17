@@ -28,16 +28,63 @@
           </div>
         </div>
         <div id='artist__breakdown_div_container'>
-          <p class='artist__breakdown_item' id='artist__category_1_line'>Clothing Designers <strong>|</strong> Organic | Yoga-Wear</p>
-          <p class='artist__breakdown_item' id='artist__guys_girls_breakdown_line'>100:0 Girls To Guys Ratio</p>
+          <p class='artist__breakdown_item' id='artist__category_1_line'>Clothing Designers<sup>100:0</sup> <strong>|</strong> Organic | Yoga-Wear</p>
+          <p class='artist__breakdown_item' id='artist__location_line'><%= image_tag "flag_white.svg", :id => 'artist__location_flag' %>&nbsp; lives in: California | from: California</p>
         </div>
         <div id='artist__shop_description'>
           Sew Much Love is a clothing company that believes in fashion and function, with every purchase a dollar will be donated to a non-profit here in Lake Tahoe.
         </div>
+        <div class='btn btn-primary' id='artist__about_this_artist_btn'>About This Artist</div>
       </div>
 
-      <div id='artist__bio_container'></div>
+      <div id='artist__shelf_container'>
 
+        <div class='artist__shelf_9'>
+          <h4 class='slider_title'>Tops</h4>
+          <div class='shelf_slider_container'>
+            <div class='feature_item item_div_container slider_item'>
+              <%= image_tag "sew_much_love_sexy_girl_2.jpg", :class => 'item_picture' %>
+              <p class='item_descriptor item_name'>Name Name Name</p>
+              <p class='item_descriptor item_price'>CA $111.11</p>
+            </div>
+            <div class='feature_item item_div_container slider_item'>
+              <%= image_tag "sew_much_love_sexy_girl_2.jpg", :class => 'item_picture' %>
+              <p class='item_descriptor item_name'>Name Name Name</p>
+              <p class='item_descriptor item_price'>CA $111.11</p>
+            </div>
+            <div class='feature_item item_div_container slider_item'>
+              <%= image_tag "sew_much_love_sexy_girl_2.jpg", :class => 'item_picture' %>
+              <p class='item_descriptor item_name'>Name Name Name</p>
+              <p class='item_descriptor item_price'>CA $111.11</p>
+            </div>
+          </div>
+          <div class='shelf_platform'></div>
+        </div>
+
+        <div class='artist__shelf_9'>
+          <h4 class='slider_title'>Hoodies</h4>
+          <div class='shelf_slider_container'>
+            <div class='feature_item item_div_container slider_item'>
+              <%= image_tag "sew_much_love_sexy_girl_5_hoodie.jpg", :class => 'item_picture' %>
+              <p class='item_descriptor item_name'>Name Name Name</p>
+              <p class='item_descriptor item_price'>CA $111.11</p>
+            </div>
+            <div class='feature_item item_div_container slider_item'>
+              <%= image_tag "sew_much_love_sexy_girl_5_hoodie.jpg", :class => 'item_picture' %>
+              <p class='item_descriptor item_name'>Name Name Name</p>
+              <p class='item_descriptor item_price'>CA $111.11</p>
+            </div>
+            <div class='feature_item item_div_container slider_item'>
+              <%= image_tag "sew_much_love_sexy_girl_5_hoodie.jpg", :class => 'item_picture' %>
+              <p class='item_descriptor item_name'>Name Name Name</p>
+              <p class='item_descriptor item_price'>CA $111.11</p>
+            </div>
+          </div>
+          <div class='shelf_platform'></div>
+        </div>
+
+
+      </div>
     </div>
 
     <div class='col-md-3 artist__feature_shelf' id='artist__feature_shelf_vertical'>
